@@ -1,28 +1,40 @@
-name: PhelpsRoadClub
 favicon: null
-layout_spectrum: 0.6121677143964916
-typography_spectrum: 0.3154611347708851
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: PhelpsRoadClub
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.3145363
+  brandStrength: 0.5750194266438484
+  lightness: 0.6885965
   brandColors:
     - '#ADD7F6'
     - '#87BFFF'
     - '#3F8EFC'
     - '#2667FF'
     - '#3B28CC'
-  brandStrength: 0.5750194266438484
-  lightness: 0.286021645180881
-  saturation: 0.43461675173603
-  rhythmicContrast: 0.8195404352154583
-purpose: []
+  rhythmicContrast: 0.8195404
+typography_spectrum: 0.3164161
+layout_spectrum: 0.6716792
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
